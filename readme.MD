@@ -11,7 +11,8 @@ sudo bash node-14-with-yarn
 
 install curl:
 ```
-sudo apt-get install -y curl
+sudo apt update
+sudo apt install -y curl
 ```
 
 Install node:

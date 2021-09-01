@@ -1,13 +1,11 @@
 #!/bin/bash
 
-# Install node
-
 echo
 echo "Start install NodeJS..."
 echo
 
 curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
-apt-get install -y nodejs
+apt install -y nodejs
 
 echo
 echo "Start install yarn"
