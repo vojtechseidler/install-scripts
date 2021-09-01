@@ -2,20 +2,18 @@
 
 ## Install node 14 with yarn
 
+**Install curl:**
+```
+sudo apt update
+sudo apt install -y curl
+```
+
 **Local:**
 ```
 sudo bash node-14-with-yarn
 ```
 
 **Remote:**
-
-install curl:
-```
-sudo apt update
-sudo apt install -y curl
-```
-
-Install node:
 ```
 curl -s https://raw.githubusercontent.com/vojtechseidler/install-scripts-debian/master/node-14-with-yarn | sudo bash -
 ```
