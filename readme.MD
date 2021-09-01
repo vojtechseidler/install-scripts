@@ -8,7 +8,13 @@ sudo bash node-14-with-yarn
 ```
 
 **Remote:**
+
+install curl:
 ```
-sudo apt-get install curl -y
-curl https://raw.githubusercontent.com/vojtechseidler/install-scripts-debian/master/node-14-with-yarn | sudo bash -
+sudo apt-get install -y curl
+```
+
+Install node:
+```
+curl -s https://raw.githubusercontent.com/vojtechseidler/install-scripts-debian/master/node-14-with-yarn | sudo bash -
 ```
