@@ -1,7 +1,6 @@
 # Debian install scripts
 
 ## Install node 14 with yarn
----
 
 **Local:**
 ```
