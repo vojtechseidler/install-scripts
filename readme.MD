@@ -2,7 +2,7 @@
 
 ## Install node 14 with yarn
 
-**Install curl:**
+**Install dependencies:**
 ```
 sudo apt update
 sudo apt install -y curl
@@ -20,20 +20,18 @@ curl -s https://raw.githubusercontent.com/vojtechseidler/install-scripts-debian/
 
 ## Install Python 3.9
 
+**Install dependencies:**
+```
+sudo apt update
+sudo apt install -y curl wget
+```
+
 **Local:**
 ```
 sudo bash python-3.9.sh
 ```
 
 **Remote:**
-
-install curl:
-```
-sudo apt update
-sudo apt install -y curl
-```
-
-Install node:
 ```
 curl -s https://raw.githubusercontent.com/vojtechseidler/install-scripts-debian/master/python-3.9.sh | sudo bash -
 ```
