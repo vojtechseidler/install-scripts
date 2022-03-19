@@ -1,5 +1,3 @@
-#!/bin/bash
-
 INSTALLATION_LOCATION="/opt/python3.9.7-installation"
 
 echo
